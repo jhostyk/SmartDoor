@@ -11,6 +11,7 @@ The admin has activated a Kinesis Video Stream and is livestreaming from their c
 A visitor steps into view. This triggers our first Lambda, which takes a screenshot and processes the user's face using Rekognition.
 If they're a first-time visitor, they're added temporarily to a bucket for unauthorized users, and the admin is texted a link to a webpage to approve them:
 ![WP1](/Demo/authorizeUser.png)
+
 If the admin recognizes the visitor, they can enter the person's name and number, which will add them to a list of authorized users.
 
 Now the visitor is approved, and can access the Known User Protocol.
