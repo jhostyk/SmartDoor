@@ -2,7 +2,6 @@
 ### Alex Atschinow, Pelin Cetin, Myles Ingram, and Joseph Hostyk
 
 Website that accesses a livestream to give access to approved users.
-This project uses many AWS tools:
 
 The admin has activated a Kinesis Video Stream and is livestreaming from their camera.
 
